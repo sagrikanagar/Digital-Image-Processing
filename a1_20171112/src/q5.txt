@@ -1,0 +1,7 @@
+1) Histogram will get cut in the middle and the second half will be stacked on the first part. All values after the middle part will have a 0 frequency of pixels.
+
+2) Histogram looks almost identical. Odd valued pixels are grouped with their closest even valued pixels(floor) and stacked in the bucket. New histogram is a slightly taller, sparser version of the original.
+
+3) (512*512*10)/(56000) = 46.81 secs
+
+    (512*512*10)/(3000000) = 0.87 secs
